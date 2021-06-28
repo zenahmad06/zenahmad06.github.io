@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=width-device, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="stiles1.css">
+	</head>
+	<body>
+		<div id="modal">
+			<div id="modalBox">
+				<form id="form1">
+					<div>
+						<label>Judul</label><br>
+						<input type="text" id="judul1">
+					</div>
+					<div>
+						<label>Penulis</label><br>
+						<input type="text" id="penulis1">
+					</div>
+					<div>
+						<label>Tahun</label><br>
+						<input type="text" id="tahun1">
+					</div>
+					<input type="submit" value="click">
+					<input type="button" value="tutup" id="tutup">
+				</form>
+			</div>
+			
+		</div>
+		<div id="inputBuku">
+			<h1>Input Buku</h1>
+			<form id="form">
+				<div>
+					<label>Judul</label><br>
+					<input type="text" id="judul">
+				</div>
+				<div>
+					<label>Penulis</label><br>
+					<input type="text" id="penulis">
+				</div>
+				<div>
+					<label>Tahun</label><br>
+					<input type="text" id="tahun">
+				</div>
+				<p>Sudah dibaca ? <input type="checkbox" id="check"></p>
+				<input type="submit" value="click" id="sub">
+			</form>
+			<hr>
+			<h2>Cari Buku </h2>
+			<input type="text" id="cari"><input type="button" id="btnCari" value="cari">
+		</div>
+		<div class="rak">
+			<div class="namaRak">Rak Buku Belum Dibaca</div>
+			<div class="tempat" id="belumdibaca">
+			</div>
+		</div>
+		<div class="rak">
+			<div class="namaRak">Rak Buku Sudah Dibaca</div>
+			<div class="tempat" id="sudahDibaca">
+			</div>
+		</div>
+
+	</body>
+	<script src="databaru.js" type="text/javascript"></script>
+
+	
+	<script src="dataBa.js" type="text/javascript"></script>
+	
+	<script src="dom.js" type="text/javascript"></script>
+	
+</html>
